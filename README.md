@@ -66,9 +66,12 @@ It is worth noting that the use of other correlated variables enhances the accur
 
 # Related Works
 
-1. Makridakis, Spyros. Time series prediction: Forecasting the future and understanding the past. International Journal of Forecasting. 1994.
-2. TOWARDS DATA SCIENCE. [Time Series Analysis in Python: An Introduction](https://towardsdatascience.com/time-seriesanalysis-in-python-an-introduction-70d5a5b1d52a).2018
-3. Taylor SJ, Letham B. 2017. [Forecasting at scale](https://doi.org/10.7287/peerj.preprints.3190v2)PeerJ Preprints 5.
+1. Makridakis, Spyros. Time series prediction: Forecasting the future and understanding the past. International Journal of Forecasting. 1994.
+2. TOWARDS DATA SCIENCE. [Time Series Analysis in Python: An Introduction](https://towardsdatascience.com/time-seriesanalysis-in-python-an-introduction-70d5a5b1d52a). 2018.
+3. Taylor SJ, Letham B. 2017. [Forecasting at scale](https://doi.org/10.7287/peerj.preprints.3190v2). PeerJ Preprints 5.
 4. Meng, J., Yang, X., Yang, C., Liu, Y. (2021). Comparative Analysis of Prophet and LSTM Model. Journal of Physics: Conference Series, 1910(1): 12-59.
 5. TRIEBE.O, HEWAMALAGE.H, PILYUGINA.P, et al. [Neuralprophet: Explainable forecasting at scale](https://doi.org/10.48550/arXiv.2111.15397). 2021.
 6. Chih-Hung Wu, Chian-Huei Wun and Hung-Ju Chou, ”Using association rules forcompleting missing data,” Fourth International Conference on Hybrid Intelligent Systems, Japan, 2004, pp. 236-241, doi: 10.1109/ICHIS.2004.91.
+
+
+## *for more details and information, please consult the final*[Report[English]](BENNABI.pdf)
