@@ -50,10 +50,16 @@ Finally, in order to enhance the predictive capabilities of our model, we incorp
 for the subsequent 100 values on each case.
 
 
-#Results
+# Evaluation
 
 To evaluate the different solution’s performance we used the MAE (Mean Absolute Error) metric:
 
-![mae](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/mae.png)
-
 $$ MAE=\frac{1}{N}\sum_{i=0}^{N}\left | Y_{i}-f(X_{i}) \right | $$
+
+
+# Results
+
+To summarize the previous experiments, we have collected all the results in the next table.
+It is worth noting that the use of other correlated variables enhances the accuracy of our prediction, but we should also be careful to not use too many variables to avoid every column’s estimation error (More columns=more error per column).
+
+![Table de resultats](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/tab.png)
