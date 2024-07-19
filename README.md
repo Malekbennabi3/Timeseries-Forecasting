@@ -6,8 +6,8 @@ source of time series data. We employ machine learning techniques to identify pa
 # Description
 This project is divided into 2 parts:
 
-- **Univariate timeseries analysis** :to predict the Oil temperature we will only use one variable.
-- **Multivariable timeseries analysis** : to predict the exchange rate of a country we will use other countries exchange rate
+- **Univariate timeseries analysis**: to predict the Oil temperature we will only use one variable.
+- **Multivariable timeseries analysis**: to predict the exchange rate of a country we will use other countries exchange rate
 
 
 # Datasets
@@ -21,9 +21,9 @@ We used 2 datasets to perform this work:
 
 - The second step is to train a predictor to predict the next 100 values of the 6th variable based on the 7 other variables, so it is a multiivariate prediction problem. In order to overcome the problem of missing values,
  three methods of completion were tried:
-  - Mean Completion: Each of the missing values are replaced with the mean of the column df.fillna(df.mean())
-  - Median Completion: The missing values are replaced with the mean of the column. df.fillna(df.median())
-  - Interpolation Completion: The missing values are filled based on a second order (quadratic) polynomial interpolation. df.interpolate(method=’polynomial’, order=2).fillna(method=’ffill’), we used the second degree polynom to avoid data overfitting.
+  - Mean Completion: Each of the missing values are replaced with the mean of the column.
+  - Median Completion: The missing values are replaced with the mean of the column. 
+  - Interpolation Completion: The missing values are filled based on a second order (quadratic) polynomial interpolation, we used the second degree polynom to avoid data overfitting.
  
  # Methods description
 
@@ -74,4 +74,4 @@ It is worth noting that the use of other correlated variables enhances the accur
 6. Chih-Hung Wu, Chian-Huei Wun and Hung-Ju Chou, ”Using association rules forcompleting missing data,” Fourth International Conference on Hybrid Intelligent Systems, Japan, 2004, pp. 236-241, doi: 10.1109/ICHIS.2004.91.
 
 
-## *for more details and information, please consult the final*[Report[English]](BENNABI.pdf)
+## *for more details and information, please consult the final* [Report[English]](BENNABI.pdf)
