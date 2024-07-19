@@ -55,3 +55,5 @@ for the subsequent 100 values on each case.
 To evaluate the different solution’s performance we used the MAE (Mean Absolute Error) metric:
 
 ![mae](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/mae.png)
+
+$$ MAE=\frac{1}{N}\sum_{i=0}^{N}\left | Y_{i}-f(X_{i}) \right | $$
