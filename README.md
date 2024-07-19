@@ -52,7 +52,7 @@ for the subsequent 100 values on each case.
 
 # Evaluation
 
-To evaluate the different solution’s performance we used the MAE (Mean Absolute Error) metric:
+To evaluate the different solution’s performance we used the MAE ([Mean Absolute Error](https://en.wikipedia.org/wiki/Mean_absolute_error) metric:
 
 $$ MAE=\frac{1}{N}\sum_{i=0}^{N}\left | Y_{i}-f(X_{i}) \right | $$
 
