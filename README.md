@@ -36,9 +36,9 @@ The Sequential model was then created using Keras, which is a type of Recurrent 
 
 - **Multivariate Prophet** : We employed the previously cited prophet model in a multivariate approach.The dataset, which had been completed by the interpolation method, was imported and the start and end
 dates of the training and testing sets were defined. We plotted the different data distribution on the same figure to observe the relation between the variables visually.
-![fig21]().
+![fig21](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/fig21.png).
 And to understand the relation between the different variables we calculated the correlation between each variable and the ’6’ variable.
-![fig22]()
+![fig22](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/fig22.png)
  We notice that the best matching variables are the ’3’, ’OT’ and ’0’.These values are close to 1, indicating that there is a high correlation between the three columns and the ’6’ column.
 We fitted the train/test sets into the Prophet model and we initiated the training process, then we defined a forecast time range of 100.
 Finally, in order to enhance the predictive capabilities of our model, we incorporated an additional regressor comprising the columns ’0’, ’3’ and ’OT’. We standardised the input values within the regressor and tested the model’s predictions
@@ -49,4 +49,4 @@ for the subsequent 100 values on each case.
 
 To evaluate the different solution’s performance we used the MAE (Mean Absolute Error) metric:
 
-![mae]()
+![mae](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/mae.png)
