@@ -31,14 +31,19 @@ We used 2 datasets to perform this work:
 
  - **LSTM (Long Short-Term Memory)**: Once the Exchange Rates dataset has been completed by the preceding techniques, we proceeded to analyse the ’6’ column.
 In order to ensure that the values were within the appropriate range for LSTM models, we applied a MinMax scaler to manipulate them between 0 and 1. In order to avoid having imbalanced sets, we then split the data
-into 65% Train and 35% Test. Subsequently, the input was reshaped to a format of [samples, time steps, features], which is the requisite format for LSTM.
+into 65% Train and 35% Test. Subsequently, the input was reshaped to a format of [samples, time steps, features], which is the requisite format for LSTM.
 The Sequential model was then created using Keras, which is a type of Recurrent Neural Network (RNN) that employs Long Short-Term Memory (LSTM) units to detect dependecies.
 
 - **Multivariate Prophet** : We employed the previously cited prophet model in a multivariate approach.The dataset, which had been completed by the interpolation method, was imported and the start and end
 dates of the training and testing sets were defined. We plotted the different data distribution on the same figure to observe the relation between the variables visually.
+
 ![fig21](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/fig21.png).
+
+
 And to understand the relation between the different variables we calculated the correlation between each variable and the ’6’ variable.
 ![fig22](https://github.com/Malekbennabi3/Timeseries-Forecasting/blob/main/img/fig22.png)
+
+
  We notice that the best matching variables are the ’3’, ’OT’ and ’0’.These values are close to 1, indicating that there is a high correlation between the three columns and the ’6’ column.
 We fitted the train/test sets into the Prophet model and we initiated the training process, then we defined a forecast time range of 100.
 Finally, in order to enhance the predictive capabilities of our model, we incorporated an additional regressor comprising the columns ’0’, ’3’ and ’OT’. We standardised the input values within the regressor and tested the model’s predictions
